@@ -31,7 +31,7 @@
   </head>
 
 <body>
-	
+	<script type="text/javascript">actionkit.forms.initPage()</script>
   <header>
     <div class="cent"><img src="assets/img/pccc-logo.jpg"></div>
   </header>
@@ -44,7 +44,7 @@
           <h2>Tell Congress to act on Medicare for All!</h2>
           <p>Sign the petition urging Democratic candidates and members of Congress to respond boldly by actively supporting Medicare for All in 2014.</p>
 
-          <form role="form" method="POST" action="//act.boldprogressives.org/act/" name="ak-form">
+          <form role="form" method="POST" action="//act.boldprogressives.org/act/" id="ak-form" name="ak-form">
 
             <div class="form-group"><input type="text" class="form-control" name="first_name" placeholder="first name"></div>
             <div class="form-group"><input type="text" class="form-control" name="last_name" placeholder="last name"></div>
@@ -58,6 +58,13 @@
             <input name="action_referrer" value="" type="hidden" />
 	  						
           </form>
+
+          <script type="text/javascript">
+            actionkit.forms.contextRoot = '//act.boldprogressives.org/context/';
+            actionkit.forms.initForm('ak-form');
+            actionkit.utils.appendHiddenInput('action_referrer', document.referrer);
+          </script>
+
 
         </div><!-- /col-sm-6 ak-content -->
       </div><!-- /row -->
