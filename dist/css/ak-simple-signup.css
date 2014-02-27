@@ -1,0 +1,128 @@
+body {
+  padding:0;
+  background-color:#eee;
+  background-image:url(../../assets/img/ak-bg.png);
+  background-repeat:no-repeat;
+  background-size:100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* PCCC header */
+header{
+	border-bottom:1px solid #bbb;
+	padding:41px 10px;
+	background-color:white;
+}
+
+.cent{
+	margin: 10px auto;
+	display:block;
+	max-width:355px;
+}
+
+.cent img{
+	width:100%;
+}
+
+
+/* Content Container Styling */
+.container {
+    max-width: 900px;
+}
+
+.container .jumbotron {
+	margin-top:30px;
+	margin-bottom:50px;
+	border:10px solid white;
+	background-color:#052b47;
+	background-image:url(../../assets/img/splash2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius: 0;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.5);
+	padding:0 15px;
+}
+
+
+/* ActinoKit Content Elements */
+.ak-content{
+	color:#fff;
+	text-align:left;
+	background-color: rgba(5,43,71,.9);
+	padding: 20px;
+}
+
+.ak-content h2{
+	margin-top:0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:36px;
+}
+
+.ak-content p{
+	font-size:16px;
+}
+
+.ak-content form{
+	margin-top:20px;
+	padding-right:20px;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+
+/* Form Button Styling */
+
+.btn-ak{
+	background-color:#2598bf;
+	border-radius:0;
+	font-size:18px;
+	color:white;
+	text-transform:uppercase;
+	width:100%;
+}
+
+.btn-ak:hover{
+background-color:#34a7ce;
+color:white;
+}
+
+
+/* Custom page footer */
+
+.footer {
+  padding-top: 29px;
+   padding-bottom: 29px;
+  color: #fff;
+  border-top: 1px solid #e5e5e5;
+  background-color:#052b47;
+}
+
+
+.btn-don{
+background-color:rgba(255,255,255,.8);
+font-size:18px;
+padding-left:30px;
+padding-right:30px;
+border-radius:0;
+color:#052b47;
+text-transform:uppercase;
+}
+
+.btn-don:hover{
+background-color:#fff;
+}
+
+li{
+	list-style:none;
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+
+
+
